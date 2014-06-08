@@ -83,8 +83,8 @@ public class Alarm extends Activity implements SensorEventListener {
 		imageAnim.setBackgroundDrawable(animation);
 		animation.start();
 
-		counter = 10;
-		timer = new CountDownTimer(10 * 1000, 100) {
+		counter = 20;
+		timer = new CountDownTimer(20 * 1000, 100) {
 
 			public void onTick(long millisUntilFinished) {
 
@@ -188,7 +188,7 @@ public class Alarm extends Activity implements SensorEventListener {
 		shakes.setText("Won!");
 
 		try {
-			Thread.sleep(3500);
+			Thread.sleep(5500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
