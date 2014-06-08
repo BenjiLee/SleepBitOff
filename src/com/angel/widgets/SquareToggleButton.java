@@ -5,17 +5,17 @@ import android.util.AttributeSet;
 import android.widget.Button;
 import android.widget.ToggleButton;
 
-public class SquareButton extends ToggleButton {
+public class SquareToggleButton extends ToggleButton {
 
-	public SquareButton(Context context, AttributeSet attrs, int defStyle) {
+	public SquareToggleButton(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 	}
 
-	public SquareButton(Context context, AttributeSet attrs) {
+	public SquareToggleButton(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
 
-	public SquareButton(Context context) {
+	public SquareToggleButton(Context context) {
 		super(context);
 	}
 

@@ -31,6 +31,7 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+	    
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main);
 
@@ -112,7 +113,7 @@ public class MainActivity extends Activity {
 		Calendar cal = Calendar.getInstance();
 		cal.add(Calendar.SECOND, seconds);
 
-		Intent intent = new Intent(this, AlarmReceiverActivity.class);
+		Intent intent = new Intent(this, Alarm.class);
 		PendingIntent pendingIntent = PendingIntent.getActivity(this, 12345,
 				intent, PendingIntent.FLAG_CANCEL_CURRENT);
 		AlarmManager am = (AlarmManager) getSystemService(Activity.ALARM_SERVICE);
