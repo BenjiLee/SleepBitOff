@@ -16,7 +16,7 @@
             android:name="com.angel.sleepbitoff.MainActivity"
             android:label="SleepBitOff"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.SelectDate">
+            android:theme="@style/Theme.SelectDate" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.angel.sleepbitoff.AlarmReceiverActivity" />
->
+        <activity android:name="com.angel.sleepbitoff.WalletInfo" />
     </application>
 
 </manifest>

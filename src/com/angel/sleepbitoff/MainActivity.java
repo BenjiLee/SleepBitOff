@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main);
 
-		textview1 = (TextView) findViewById(R.id.textView1);
+		textview1 = (TextView) findViewById(R.id.textView2);
 		timepicker1 = (TimePicker) findViewById(R.id.timePicker1);
 
 		isset = false;

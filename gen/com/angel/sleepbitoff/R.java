@@ -994,8 +994,10 @@ containing a value of this type.
     }
     public static final class id {
         public static final int About=0x7f060045;
+        public static final int Back=0x7f06004a;
         public static final int LinearLayout1=0x7f06003c;
         public static final int LinearLayout2=0x7f06003f;
+        public static final int Save=0x7f06004b;
         public static final int Settings=0x7f060044;
         public static final int action_bar=0x7f06001c;
         public static final int action_bar_activity_content=0x7f060015;
@@ -1008,7 +1010,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f06004b;
+        public static final int action_settings=0x7f06004c;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1018,9 +1020,6 @@ containing a value of this type.
         public static final int dialog=0x7f06000e;
         public static final int disableHome=0x7f060008;
         public static final int dropdown=0x7f06000f;
-        public static final int editText1=0x7f060046;
-        public static final int editText2=0x7f060048;
-        public static final int editText3=0x7f06004a;
         public static final int edit_query=0x7f060030;
         public static final int end=0x7f060013;
         public static final int expand_activities_button=0x7f060026;
@@ -1028,6 +1027,7 @@ containing a value of this type.
         public static final int home=0x7f060014;
         public static final int homeAsUp=0x7f060005;
         public static final int icon=0x7f06002a;
+        public static final int idText=0x7f060046;
         public static final int ifRoom=0x7f06000a;
         public static final int image=0x7f060027;
         public static final int imageButton1=0x7f060041;
@@ -1039,6 +1039,7 @@ containing a value of this type.
         public static final int never=0x7f060009;
         public static final int none=0x7f060010;
         public static final int normal=0x7f060000;
+        public static final int passText=0x7f060047;
         public static final int progress_circular=0x7f060018;
         public static final int progress_horizontal=0x7f060019;
         public static final int radio=0x7f06002f;
@@ -1060,14 +1061,14 @@ containing a value of this type.
         public static final int stopAlarm=0x7f060043;
         public static final int submit_area=0x7f060039;
         public static final int tabMode=0x7f060002;
-        public static final int textView1=0x7f06003e;
-        public static final int textView2=0x7f060047;
-        public static final int textView3=0x7f060049;
+        public static final int textView2=0x7f06003e;
+        public static final int textView3=0x7f060048;
         public static final int timePicker1=0x7f06003d;
         public static final int title=0x7f06002b;
         public static final int top_action_bar=0x7f060020;
         public static final int up=0x7f060021;
         public static final int useLogo=0x7f060003;
+        public static final int wagerText=0x7f060049;
         public static final int withText=0x7f06000c;
     }
     public static final class integer {
