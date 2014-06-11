@@ -10,9 +10,9 @@ SleepBitOff is an alarm clock that when triggered, will create a game. If you lo
 TODOS:
 
 <ul>
-<li>-Figure out a better way to send bitcoins.</li>
-<li>-Pull companies that accept bitcoins from the wiki, and allow the selection of any number of them. Possibly randomize where the Satoshies will be sent to when you lose the game.</li>
-<li>-Seperate the alarm and game in the code</li>
-<li>-Add or remove the plus/minus buttons.</li>
-<li>-Allow user to pick a day to set alarm.</li>
+<li>Figure out a better way to send bitcoins.</li>
+<li>Pull companies that accept bitcoins from the wiki, and allow the selection of any number of them. Possibly randomize where the Satoshies will be sent to when you lose the game.</li>
+<li>Seperate the alarm and game in the code</li>
+<li>Add or remove the plus/minus buttons.</li>
+<li>Allow user to pick a day to set alarm.</li>
 </ul>
